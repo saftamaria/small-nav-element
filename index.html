@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Hover Page</title>
+</head>
+<body>
+<style>
+
+    .container {
+        width: 50%;
+        display: table;
+        margin: 0 auto;
+    }
+    .navMenu{
+        display: table-cell;
+        position: relative;
+        top: 20px;
+    }
+    .navMenu p,  ul li a{
+        font-size: 15px;
+        border: 0.2px solid #ececec;
+        text-align: center;
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        color:#000;
+    }
+
+    .navMenu:hover  ul{
+        display: block;
+        position: absolute;
+        top:50px;
+        mergin:0;
+        padding: 0;
+    }
+    ul {
+        display: none;
+        list-style-type: none;
+        width: 100%;
+        left: 0;
+
+    }
+
+
+</style>
+
+<div class="container">
+    <div class="navMenu">
+        <p>Page One</p>
+        <ul >
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+          </ul>
+    </div>
+    <div class="navMenu">
+        <p>Page Two</p>
+        <ul >
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+        </ul>
+    </div>
+    <div class="navMenu">
+        <p>Page Three</p>
+        <ul>
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+        </ul>
+    </div>
+    <div class="navMenu">
+        <p>Page Four</p>
+        <ul>
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
